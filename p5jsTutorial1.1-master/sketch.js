@@ -14,13 +14,19 @@ function draw()
   fill(245,113,290);
 
   // create a rectangle at x,y coordinates 10,10 with length x height at 100 x 50
-  rect(20,10,50,70);
-  rect(30,30,100,50);
+  rect(310,80,70,70);
+  rect(310,350,70,70);
+  fill(51,51,255)
   rect(649,0,50,50);
   rect(0,0,50,50);
-  rect(100,500/2-50/2,500,50);
   rect(0,449,50,50);
   rect(649,449,50,50);
+
+  fill(0,255,150);
+  rect(100,500/2-50/2,500,50);
+
+
+
 
 
 }
